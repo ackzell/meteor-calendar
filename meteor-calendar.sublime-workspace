@@ -3,6 +3,18 @@
 	{
 		"selected_items":
 		[
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"mo",
+				"month-calendar"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +23,23 @@
 			"file": "meteor-calendar.html",
 			"settings":
 			{
-				"buffer_size": 83,
+				"buffer_size": 104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/month-calendar.html",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/month-calendar.js",
+			"settings":
+			{
+				"buffer_size": 125,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,15 +47,7 @@
 			"file": "client/views/welcome.html",
 			"settings":
 			{
-				"buffer_size": 87,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 95,
+				"buffer_size": 221,
 				"line_ending": "Unix"
 			}
 		},
@@ -62,6 +82,14 @@
 				"buffer_size": 31,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "client/views/css/meteor-calendar.css",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -70,6 +98,34 @@
 		"height": 79.0,
 		"selected_items":
 		[
+			[
+				"puch",
+				"Git: Push Current Branch"
+			],
+			[
+				"gihub",
+				"Git: Push Current Branch"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"diff",
+				"Git: Diff All"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -136,11 +192,13 @@
 	},
 	"file_history":
 	[
+		"/home/ackzell/meteor-calendar/README.md",
+		"/home/ackzell/meteor-calendar/month-calendar.html",
+		"/home/ackzell/meteor-calendar/month-calendar.js",
 		"/home/ackzell/meteor-calendar/client/views/README.md",
 		"/home/ackzell/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/ackzell/meteor-calendar/client/views/month-calendar.js",
 		"/home/ackzell/meteor-calendar/client/views/month-calendar.html",
-		"/home/ackzell/meteor-calendar/month-calendar.html",
 		"/home/ackzell/meteor-calendar/views/month-calendar.html",
 		"/home/ackzell/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
 		"/home/ackzell/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
@@ -155,7 +213,6 @@
 		"/home/ackzell/meteor-calendar/client/meteor-calendar.js",
 		"/home/ackzell/meteor-calendar/client/meteor-calendar.html",
 		"/home/ackzell/meteor-calendar/client/meteor-calendar.css",
-		"/home/ackzell/meteor-calendar/README.md",
 		"/home/ackzell/meteor-angular-leaderboard/server/server.coffee",
 		"/home/ackzell/meteor-angular-leaderboard/public/angular.html",
 		"/home/ackzell/meteor-calendar/meteor-calendar.css",
@@ -205,7 +262,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -213,15 +270,15 @@
 					"file": "meteor-calendar.html",
 					"settings":
 					{
-						"buffer_size": 83,
+						"buffer_size": 104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								85,
+								85
 							]
 						],
 						"settings":
@@ -282,18 +339,159 @@
 				},
 				{
 					"buffer": 1,
-					"file": "client/views/welcome.html",
+					"file": "client/views/month-calendar.html",
 					"settings":
 					{
-						"buffer_size": 87,
+						"buffer_size": 76,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/views/month-calendar.js",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/views/welcome.html",
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
 							]
 						],
 						"settings":
@@ -352,78 +550,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 95,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								95,
-								95
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"is_xml": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "client/views/welcome.js",
 					"settings":
 					{
@@ -495,7 +622,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "client/meteor-calendar.js",
 					"settings":
 					{
@@ -567,7 +694,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "server/server.js",
 					"settings":
 					{
@@ -637,7 +764,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "meteor-calendar.css",
 					"settings":
 					{
@@ -650,6 +777,76 @@
 							[
 								31,
 								31
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "client/views/css/meteor-calendar.css",
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
 							]
 						],
 						"settings":

@@ -5,6 +5,13 @@
   },
   "packages": {
     "jquery-ui-bootstrap": {},
-    "fullcalendar": {}
+    "fullcalendar": {},
+    "bootstrap-timepicker": {},
+    "bootstrap-daterangepicker": {},
+    "jquery-mousewheel": {},
+    "animate-css": {},
+    "bootstrap-growl": {},
+    "router": {},
+    "transitioner": {}
   }
 }

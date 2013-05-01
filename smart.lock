@@ -7,7 +7,14 @@
   "dependencies": {
     "basePackages": {
       "jquery-ui-bootstrap": {},
-      "fullcalendar": {}
+      "fullcalendar": {},
+      "bootstrap-timepicker": {},
+      "bootstrap-daterangepicker": {},
+      "jquery-mousewheel": {},
+      "animate-css": {},
+      "bootstrap-growl": {},
+      "router": {},
+      "transitioner": {}
     },
     "packages": {
       "jquery-ui-bootstrap": {
@@ -20,10 +27,50 @@
         "tag": "v0.1.0",
         "commit": "a0e16fafd24973f44e71732ec77b43234867a59e"
       },
+      "bootstrap-timepicker": {
+        "git": "https://github.com/BenjaminRH/meteor-bootstrap-timepicker.git",
+        "tag": "v0.1.0",
+        "commit": "fa61edb82752e5c682dbaafd5412f4d29f8b72e0"
+      },
+      "bootstrap-daterangepicker": {
+        "git": "https://github.com/BenjaminRH/meteor-bootstrap-daterangepicker.git",
+        "tag": "v0.1.0",
+        "commit": "883bcafd96aae0072fdbe596243030afdadbe3c3"
+      },
+      "jquery-mousewheel": {
+        "git": "https://github.com/sslotsky/meteor-jquery-mousewheel.git",
+        "tag": "v0.1.0",
+        "commit": "357e12cbe3bdcec1c3d1bff4b13b191d75acc973"
+      },
+      "animate-css": {
+        "git": "https://github.com/nate-strauser/meteor-animate-css.git",
+        "tag": "v0.1.0",
+        "commit": "993c626b204e596c41cda63cb3fbb0ca3aa5deea"
+      },
+      "bootstrap-growl": {
+        "git": "https://github.com/TimHeckel/meteor-bootstrap-growl.git",
+        "tag": "v0.1.1",
+        "commit": "674fd231a46e405f8d4eb463725d8003a02374ec"
+      },
+      "router": {
+        "git": "https://github.com/tmeasday/meteor-router.git",
+        "tag": "v0.5.1",
+        "commit": "32e377c7703bb119acccc859fc7296882903cbe7"
+      },
+      "transitioner": {
+        "git": "https://github.com/tmeasday/meteor-transitioner.git",
+        "tag": "v0.2.3",
+        "commit": "a9f4a19bd425252471887cfb03586bf910f35b0d"
+      },
       "jquery-ui": {
         "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",
         "tag": "v1.9.2",
         "commit": "c437d45edcf1367df8d5ffa8bad2867758030bd2"
+      },
+      "page-js-ie-support": {
+        "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
+        "tag": "v1.3.5",
+        "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
       }
     }
   }

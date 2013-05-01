@@ -9,3 +9,10 @@ preserve-inputs
 jquery-ui-bootstrap
 bootstrap
 fullcalendar
+bootstrap-timepicker
+bootstrap-daterangepicker
+jquery-mousewheel
+animate-css
+bootstrap-growl
+router
+transitioner
