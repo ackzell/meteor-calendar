@@ -1,0 +1,48 @@
+<template name="ModalAddEvent">
+
+  <div id="addEvent" class="modal hide fade">
+
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3>Add event on {{day}}</h3>
+    </div>
+
+    <div class="modal-body">
+      <form class="form-horizontal">
+
+        <div class="control-group">
+          <label class="control-label" for="inputEventName">Event name</label>
+          <div class="controls">
+            <input type="text" id="inputEventName" placeholder="Name your event">
+          </div>
+        </div>
+
+        <div class="control-group">
+
+          <label class="control-label" for="checkboxAllDay">All day event?</label>
+          <div class="controls">
+            <div class="switch switch-small" data-on-label="<i class='icon-ok icon-white'></i>" data-off-label="<i class='icon-remove'></i>">
+              <input id="checkboxAllDay" type="checkbox">
+            </div>
+          </div>
+        </div>
+
+        <div class="control-group">
+          
+          <label class="control-label" for="checkboxRepeatingEvent">Repeating event?</label>
+          <div class="controls">
+            <div id="switchRepeatingEvent" class="switch switch-small" data-on-label="<i class='icon-ok icon-white'></i>" data-off-label="<i class='icon-remove'></i>">
+              <input id="checkboxRepeatingEvent" type="checkbox">
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="modal-footer">
+      <a href="#" class="btn" data-dismiss="modal">Cancel</a>
+      <a href="#" class="btn btn-primary">Save changes</a>
+    </div>
+  </div>
+</template>

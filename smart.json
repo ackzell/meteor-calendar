@@ -12,6 +12,7 @@
     "animate-css": {},
     "bootstrap-growl": {},
     "router": {},
-    "transitioner": {}
+    "transitioner": {},
+    "bootstrap-switch": {}
   }
 }
